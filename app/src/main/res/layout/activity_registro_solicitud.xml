@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegistroSolicitudActivity">
+
+<com.airbnb.lottie.LottieAnimationView
+    android:id="@+id/animationView"
+    android:layout_width="358dp"
+    android:layout_height="104dp"
+    android:layout_marginTop="16dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:lottie_autoPlay="true"
+    app:lottie_loop="true"
+    app:lottie_rawRes="@raw/reserva" />
+
+<TextView
+    android:id="@+id/tnombres"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="127dp"
+    android:text="@string/tnombre"
+    android:textColor="#000000"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/animationView" />
+
+<TextView
+    android:id="@+id/tservicio"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="20dp"
+    android:text="@string/tservicios"
+    android:textColor="#000000"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tedificio" />
+
+<RadioGroup
+    android:id="@+id/radioGroup2"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:orientation="horizontal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tservicio">
+
+    <RadioButton
+        android:id="@+id/servicioagua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rbagua"
+        android:textColor="#000000" />
+
+    <RadioButton
+        android:id="@+id/servicioluz"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/rbsluz"
+        android:textColor="#000000" />
+
+    <RadioButton
+        android:id="@+id/mantenimientojardin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rbjardin"
+        android:textColor="#000000" />
+</RadioGroup>
+
+<EditText
+    android:id="@+id/nom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:ems="10"
+    android:inputType="text"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.57"
+    app:layout_constraintStart_toEndOf="@+id/tnombres"
+    app:layout_constraintTop_toBottomOf="@+id/animationView" />
+
+<EditText
+    android:id="@+id/editTextTextPersonName7"
+    android:layout_width="241dp"
+    android:layout_height="80dp"
+    android:layout_marginEnd="44dp"
+    android:layout_marginRight="44dp"
+    android:layout_marginBottom="12dp"
+    android:ems="10"
+    android:inputType="none|text"
+    android:textColor="#000000"
+    app:layout_constraintBottom_toTopOf="@+id/bregistrar"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.878"
+    app:layout_constraintStart_toEndOf="@+id/tcelular" />
+
+<Button
+    android:id="@+id/bregistrar"
+    android:layout_width="122dp"
+    android:layout_height="47dp"
+    android:layout_marginStart="32dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginBottom="52dp"
+    android:text="REGISTRAR"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<Button
+    android:id="@+id/bcancelar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="68dp"
+    android:text="@string/btncancelar"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.444"
+    app:layout_constraintStart_toEndOf="@+id/bregistrar"
+    app:layout_constraintTop_toBottomOf="@+id/tcelular" />
+
+<TextView
+    android:id="@+id/tedificio"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="24dp"
+    android:text="@string/tedificios"
+    android:textColor="#000000"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tapellidos" />
+
+<EditText
+    android:id="@+id/ape"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:ems="10"
+    android:inputType="text"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.571"
+    app:layout_constraintStart_toEndOf="@+id/tapellidos"
+    app:layout_constraintTop_toBottomOf="@+id/nom" />
+
+<TextView
+    android:id="@+id/tcelular"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="40dp"
+    android:text="Motivo"
+    android:textColor="#000000"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+<TextView
+    android:id="@+id/tapellidos"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="40dp"
+    android:text="@string/tapellidos"
+    android:textColor="#000000"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tnombres" />
+
+<TextView
+    android:id="@+id/numedi"
+    android:layout_width="152dp"
+    android:layout_height="26dp"
+    android:layout_marginTop="16dp"
+    android:text="500"
+    android:textColor="#000000"
+    android:textSize="18sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.48"
+    app:layout_constraintStart_toEndOf="@+id/tedificio"
+    app:layout_constraintTop_toBottomOf="@+id/ape" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

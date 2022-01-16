@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Administracion De Edificios</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="nav_consulta_departamentos">Departamentos</string>
+    <string name="nav_historial_pagos">Historial de Pagos</string>
+    <string name="nav_notificaciones">Notificaciones</string>
+    <string name="nav_depa_disponibles">Departamentos en Renta</string>
+    <string name="login">Login</string>
+    <string name="temporal">Temporal</string>
+    <string name="chat">Chat</string>
+    <string name="menu_pasarela">Pasarela de pago</string>
+    <string name="menu_registro_invitados">Registro de invitados</string>
+    <string name="title_activity_pestanas_menu">PestanasMenuActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="descripcion">Bienvenido Francis!</string>
+    <string name="descripcion2">Te invitamos a mantenerte informado de lo que sucede en tu comunidad.</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="tvtitulopago">PAGA SEGURO Y RÁPIDO</string>
+    <string name="hinttarjeta">Ingrese número de tarjeta</string>
+    <string name="hintmonto">Ingrese monto a pagar</string>
+    <string name="btnpagarmonto">PAGAR</string>
+    <string name="hintinvitado">Ingrese nombre y apellido</string>
+    <string name="btnregistrarinvitado">Registrar</string>
+    <string name="valfecha">Fecha</string>
+    <string name="valhora">Hora</string>
+    <string name="valzonascomunes">Reservar Zonas Comunes</string>
+    <string name="valnom">Nombres</string>
+    <string name="valape">Apellidos</string>
+    <string name="valdni">Dni</string>
+    <string name="valnomdepaedi">Numero de Depa/Edificio</string>
+    <string name="valcelular">Celular</string>
+    <string name="valemail">Kukin@example.com</string>
+    <string name="vafecha">Fecha</string>
+    <string name="vahora">Hora</string>
+    <string name="valtexto">Escribir su Solicitud</string>
+    <string name="valreservar">Reservar</string>
+    <string name="tnombre">Nombres:</string>
+    <string name="tapellidos">Apellidos:</string>
+    <string name="tedificios">N° Edificio:</string>
+    <string name="tservicios">Servicio:</string>
+    <string name="etnom" />
+    <string name="rbagua">Servicio Agua</string>
+    <string name="rbsluz">Servicio Luz</string>
+    <string name="rbjardin">Mantenimiento Jardin</string>
+    <string name="tcel">Celular:</string>
+    <string name="btnregistrar">Registrar Solicitud</string>
+    <string name="btncancelar">Cancelar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valiuserpass">Usuario y password son obligatorios.</string>
+    <string name="errorapi">Error al conectarse al servidor, intente de nuevo.</string>
+    <string name="idettabhome">INICIO</string>
+    <string name="idettabhogar">HOGAR</string>
+    <string name="idettabmuro">MURO</string>
+    <string name="mensaje">Escribe un mensaje</string>
+    <string name="enlinea">En linea</string>
+    <string name="nicolevera">Nicole Vera</string>
+    <string name="time">00:00</string>
+    <string name="valformlogin">Email y password son obligatorios.</string>
+    <string name="valerrorloginfb">Email o password incorrecto.</string>
+    <string name="chatvecinal">Chat de vecinos</string>
+    <string name="btnfecha">Fecha</string>
+    <string name="btnhora">Hora</string>
+    <string name="valdescripcion1">Interactúa con tus vecinos</string>
+    <string name="valdescripcion2">Informate y realiza tus operaciones</string>
+    <string name="valbtnIr">Ir</string>
+    <string name="valbtnregistrar">Registrar invitado</string>
+    <string name="valcancelarregistro">Cancelar registro</string>
+    <string name="pagos">Mis pagos</string>
+    <string name="departamentos">Departamentos disponibles</string>
+    <string name="valregistrarse"><u>¿Eres nuevo? Registrate aquí</u></string>
+    <string name="texdepartamento">Mi Departamento</string>
+    <string-array name="tipoDoc">
+        <item>DNI</item>
+        <item>CARNET EXT.</item>
+        <item>PASAPORTE</item>
+    </string-array>
+    <string-array name="departamentos">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+    </string-array>
+    <string-array name="edificios">
+        <item>Edificio-1</item>
+        <item>Edificio-2</item>
+        <item>Edificio-3</item>
+    </string-array>
+    <string-array name="distritos">
+        <item>Ate Vitarte</item>
+    </string-array>
+    <string-array name="tiposervicios">
+        <item>Mensualidad</item>
+        <item>Pago Reserva</item>
+        <item>Pago internet</item>
+    </string-array>
+</resources>
